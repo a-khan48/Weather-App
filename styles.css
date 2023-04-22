@@ -1,0 +1,46 @@
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+
+/* */
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Sen', sans-serif;
+    font-weight:400;
+    
+}
+
+.head{  
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.h1-title{
+    animation: fadeInDown;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+    animation-delay: .25s;
+}
+
+.h2-title{
+    animation: fadeInUp;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+}
+
+.zipcode, .zipSubmit{
+    animation: fadeIn;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+    animation-delay: 2.5s;
+} 
+
+.display{
+    animation: fadeIn;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+}
